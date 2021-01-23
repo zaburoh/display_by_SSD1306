@@ -3,3 +3,6 @@ include
 lib
 share
 pyvenv.cfg
+c
+test
+__pycache__
