@@ -31,8 +31,9 @@ class Display():
 
     self.font = ImageFont.load_default()
     (font_width, font_height) = self.font.getsize(text)
-    draw.text(
-      (self.oled.width // 2 -font_width //2, self.oled.height // 2 - font_height // 2),
+    xy = (0, 0)
+    draw.multiline_text(
+      xy,
       text,
       font = self.font,
       fill = 255,

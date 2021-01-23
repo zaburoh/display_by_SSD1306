@@ -64,3 +64,16 @@ Package                          Version
 -------------------------------- -------
 Pillow                           8.1.0  
 ```
+
+# smbus2 for BME280
+```bash
+$ pip install smbus2
+```
+
+```bash
+$ pip list
+Package                          Version
+-------------------------------- -------
+Adafruit-Blinka                  5.9.2  
+smbus2                           0.4.1  
+```
